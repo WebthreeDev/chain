@@ -99,7 +99,7 @@ export class DeFi {
     _setTokens(_tokens) {
         this.tokens = _tokens;
         this.fusdToken = _tokens.find((_item) => _item.symbol === 'FUSD');
-        this.icicbToken = _tokens.find((_item) => _item.symbol === 'ICICB');
+        this.icicbToken = _tokens.find((_item) => _item.symbol === 'NYC');
 
         /*
         if (isObjectEmpty(this.tokenDecimals)) {
@@ -235,7 +235,7 @@ export class DeFi {
      */
     getTokenSymbol(_token) {
         return _token && _token.symbol
-            ? _token.symbol !== 'ICICB'
+            ? _token.symbol !== 'NYC'
                 ? lowercaseFirstChar(_token.symbol)
                 : _token.symbol
             : '';
@@ -564,7 +564,7 @@ export class DeFi {
      * @return {boolean}
      */
     canTokenBeDeposited(_token) {
-        return _token && _token.isActive && _token.canDeposit && _token.symbol !== 'ICICB';
+        return _token && _token.isActive && _token.canDeposit && _token.symbol !== 'NYC';
     }
 
     /**
@@ -573,7 +573,7 @@ export class DeFi {
      */
     canTokenBeTraded(_token) {
         // return _token && _token.isActive && _token.canTrade;
-        return _token && _token.isActive && (_token.canTrade || _token.symbol === 'ICICB');
+        return _token && _token.isActive && (_token.canTrade || _token.symbol === 'NYC');
         // return _token && _token.isActive && (_token.canTrade || _token.symbol === 'FUSD');
     }
 

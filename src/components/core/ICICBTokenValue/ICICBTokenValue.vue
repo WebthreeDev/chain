@@ -8,7 +8,7 @@
             no-currency
             v-bind="$attrs"
         />
-        <span v-if="!noCurrency"> ICICB</span>
+        <span v-if="!noCurrency"> NewYearChain</span>
     </span>
 </template>
 
@@ -30,7 +30,7 @@ export default {
             type: Number,
             default: 2,
         },
-        /** Convert value to ICICB */
+        /** Convert value to NewYearChain */
         convert: {
             type: Boolean,
             default: false,

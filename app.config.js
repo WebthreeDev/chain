@@ -1,9 +1,9 @@
 const appConfig = {
     // app title
-    name: "ICICB Explorer",
+    name: "New Year Chain Explorer",
     // app description
     description:
-        "ICICB Explorer allows you to explore and search the ICICB blockchain for transactions, addresses and blocks",
+        "New Year Chain Explorer allows you to explore and search the New Year Chain blockchain for transactions, addresses and blocks",
     // app keywords
     keywords: "icicb, explorer, search, blockchain, crypto, currency",
     // apollo client settings
@@ -38,7 +38,7 @@ const appConfig = {
     // pwa settings
     pwa: {
         // name used in pwa manifest
-        name: "ICICB Explorer"
+        name: "New Year Chain Explorer"
     },
     // default options for production build
     build: {

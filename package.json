@@ -9,6 +9,7 @@
         "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
     },
     "dependencies": {
+        "@apollo/client": "^3.7.3",
         "@yzfe/vue-svgicon-loader": "^1.0.0-alpha.0",
         "animated-number-vue": "^1.0.0",
         "apollo-cache-inmemory": "^1.6.5",
@@ -23,8 +24,8 @@
         "dayjs": "^1.10.4",
         "eslint": "^6.8.0",
         "focus-visible": "^5.1.0",
-        "graphql": "^14.6.0",
-        "graphql-tag": "^2.10.3",
+        "graphql": "^14.7.0",
+        "graphql-tag": "^2.12.6",
         "lightweight-charts": "^3.3.0",
         "register-service-worker": "^1.6.2",
         "resize-observer-polyfill": "^1.5.1",

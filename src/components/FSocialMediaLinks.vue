@@ -1,32 +1,32 @@
 <template>
     <ul class="f-social-media-links no-markers">
         <li>
-            <a href="https://t.co/rUA9BE8kf2?amp=1" target="_blank" rel="nofollow" title="ICICB on Discord">
+            <a href="https://t.co/rUA9BE8kf2?amp=1" target="_blank" rel="nofollow" title="NewYearChain on Discord">
                 <icon data="@/assets/svg/social-media/discord.svg" width="24" height="24"></icon>
             </a>
         </li>
         <li>
-            <a href="https://twitter.com/ICICBFDN" target="_blank" rel="nofollow" title="ICICB on Twitter">
+            <a href="https://twitter.com/NewYearChain" target="_blank" rel="nofollow" title="NYC on Twitter">
                 <icon data="@/assets/svg/social-media/twitter.svg" width="24" height="24"></icon>
             </a>
         </li>
         <li>
-            <a href="https://www.reddit.com/r/ICICBFoundation/" target="_blank" rel="nofollow" title="ICICB on Reddit">
+            <a href="https://www.reddit.com/r/NewYearChain/" target="_blank" rel="nofollow" title="NewYearChain on Reddit">
                 <icon data="@/assets/svg/social-media/reddit.svg" width="24" height="24"></icon>
             </a>
         </li>
         <li>
-            <a href="https://github.com/ICICB-Foundation" target="_blank" rel="nofollow" title="ICICB on Github">
+            <a href="https://github.com/NewYearChain-Foundation" target="_blank" rel="nofollow" title="NewYearChain on Github">
                 <icon data="@/assets/svg/social-media/github.svg" width="24" height="24"></icon>
             </a>
         </li>
         <li>
-            <a href="https://medium.com/ICICBfoundation" target="_blank" rel="nofollow" title="ICICB on Medium">
+            <a href="https://medium.com/NewYearChain" target="_blank" rel="nofollow" title="NewYearChain on Medium">
                 <icon data="@/assets/svg/social-media/medium.svg" width="24" height="24"></icon>
             </a>
         </li>
         <li>
-            <a href="https://www.linkedin.com/company/ICICB-foundation/" target="_blank" rel="nofollow" title="ICICB on Linkedin" class="linkedin">
+            <a href="https://www.linkedin.com/company/NYC-foundation/" target="_blank" rel="nofollow" title="NewYearChain on Linkedin" class="linkedin">
                 <icon data="@/assets/svg/social-media/linkedin.svg" width="24" height="24"></icon>
             </a>
         </li>

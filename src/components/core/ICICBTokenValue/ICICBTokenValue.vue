@@ -8,7 +8,7 @@
             no-currency
             v-bind="$attrs"
         />
-        <span v-if="!noCurrency"> BuildABlock</span>
+        <span v-if="!noCurrency"> BuildaChain</span>
     </span>
 </template>
 
@@ -30,7 +30,7 @@ export default {
             type: Number,
             default: 2,
         },
-        /** Convert value to BuildABlock */
+        /** Convert value to BuildaChain */
         convert: {
             type: Boolean,
             default: false,

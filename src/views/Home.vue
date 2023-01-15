@@ -2,7 +2,7 @@
     <div class="view-home ">
         <div class="row">
             <div class="col-8 offset-2 col-10-lg offset-1-lg col-12-sm no-offset-sm">
-            <p class="serarch-heading">WELCOME TO Build A Block</p>
+            <p class="serarch-heading">WELCOME TO Build a Chain</p>
                 <f-search-box></f-search-box>
             </div>
         </div>

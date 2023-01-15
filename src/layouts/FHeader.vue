@@ -31,7 +31,7 @@
             <div class="footer">
                 <f-social-media-links></f-social-media-links>
                 <div class="copyright">
-                    <a href="http://icicbchain.org" target="_blank" rel="nofollow">©2021 icicbchain.org</a>
+                    <a href="http://BuildaChain.io" target="_blank" rel="nofollow">©2021 icicbchain.org</a>
                 </div>
             </div>
         </div>
